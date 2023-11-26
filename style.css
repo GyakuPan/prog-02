@@ -1,0 +1,40 @@
+#cards {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.card {
+  width: 720px;
+  height: 480px;
+  border: 1px solid lightgray;
+}
+
+.card:nth-child(2) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  width: 100%;
+  height: 145px;
+  padding-right: 12px;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+
+.description p {
+  font-size: 13px;
+  color: dimgray;
+}
+
+#twitter {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
